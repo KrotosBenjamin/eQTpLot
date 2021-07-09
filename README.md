@@ -49,7 +49,7 @@ These clear and comprehensive plots provide a unique view of eQTL-GWAS colocaliz
 
 eQTpLot can be install using `devtools`, either directly from GitHub,
 
-`devtools::install_github("RitchieLab/eQTpLot")`
+`devtools::install_github("KrotosBenjamin/eQTpLot")`
 
 or by downloading the repository to your computer, unzipping, and installing the `eQTpLot` folder.
 
