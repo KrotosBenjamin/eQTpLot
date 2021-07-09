@@ -920,7 +920,7 @@ eQTpLot <- function(GWAS.df, eQTL.df, Genes.df, LD.df = TRUE, gene, trait,
   
   ### Generate Gene Track Plot
   if(gbuild == "hg19"){hostname <- "https://grch37.ensembl.org"}
-  if(gbuild == "hg38"){hostname <- "https://apr2020.archive.ensembl.org"}
+  if(gbuild == "hg38"){hostname <- "https://www.ensembl.org"}
   
   bm <- biomaRt::useMart(host = hostname,
                          biomart = "ENSEMBL_MART_ENSEMBL",
